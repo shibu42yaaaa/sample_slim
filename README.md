@@ -26,6 +26,7 @@ Things you may want to cover:
 
 # gem追加
 gem "slim-rails"
+
 gem "html2slim"
 
 # erbファイル削除
