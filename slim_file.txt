@@ -1,0 +1,12 @@
+# gem追加
+gem "slim-rails"
+gem "html2slim"
+
+# erbファイル削除
+bundle exec erb2slim app/views/layouts/ --delete
+
+#bootstrapの追加
+
+# cssをscssへ
+.scssに記述
+@import "bootstrap";
