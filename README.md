@@ -6,7 +6,7 @@ application up and running.
 Things you may want to cover:
 
 * Ruby version
-
+2.7.1
 * System dependencies
 
 * Configuration
@@ -23,3 +23,26 @@ Things you may want to cover:
 
 * ...
 # sample_slim
+
+# gem追加
+gem "slim-rails"
+gem "html2slim"
+
+# erbファイル削除
+bundle exec erb2slim app/views/layouts/ --delete
+
+#bootstrapの追加
+
+# cssをscssへ
+.scssに記述
+@import "bootstrap";
+
+
+
+
+
+
+
+
+
+
